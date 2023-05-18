@@ -1,0 +1,15 @@
+---Homeworks----
+CDN-content delivery networks
+crossorigin
+--------First class -----------
+Js hello world and React hello world
+REact Hello world we need to include CDN links in .html file we created.One link React.js and another ReactDOM.js
+
+<script>
+    const heading=React.createElement("h1",{},"Hello World")
+React.createElement is an object not html.In the process of rendering it converted to html for understanding the browser.
+const root= ReactDOM.createRoot(document.getElementByID("root));
+root.render(heading);
+If there is anything inside our root it is completely replaced not appended.
+Why React is called a library?
+It can be used in a small portion of a code in our page that is why it is called library
